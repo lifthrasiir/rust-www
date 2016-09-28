@@ -1502,7 +1502,7 @@ Rust에서 상수 수식이 아닌 값을 전역에 넣을 수 있나요?
 정적 생성자는 정적 초기화 순서를 이식성 있는 방법으로 보장하는 게 어려워서 바람직하지 않습니다.
 main 이전의 삶은 종종 잘못된 기능으로 꼽히므로, Rust에서는 허용되지 않습니다.
 
-[C++ FQA](http://yosefk.com/c++fqa/ctors.html#fqa-10.12)에서 "정적 초기화 순서 사기" 부분과, 이 기능을 가지고 있는 C#에서의 도전을 다루는 [Eric Lippert의 블로그](https://ericlippert.com/2013/02/06/static-constructors-part-one/)도 보세요.
+[C++ FAQ](http://yosefk.com/c++fqa/ctors.html#fqa-10.12)에서 "정적 초기화 순서 사기" 부분과, 이 기능을 가지고 있는 C#에서의 도전을 다루는 [Eric Lippert의 블로그](https://ericlippert.com/2013/02/06/static-constructors-part-one/)도 보세요.
 
 상수 수식이 아닌 전역 변수는 [lazy-static](https://crates.io/crates/lazy_static/) 크레이트로 근사할 수 있습니다.
 
